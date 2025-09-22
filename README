@@ -1,0 +1,7 @@
+# complie ipytools
+
+cd ipytools and cmake it
+
+# run ipynb
+
+if you run second cell twice, the canvas will diappear.
