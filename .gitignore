@@ -1,0 +1,6 @@
+**/__pycache__/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/CmakeFiles/
+**/Makefile
+.vscode/
