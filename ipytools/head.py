@@ -14,11 +14,11 @@ def initialize(force=False):
     Args:
         force (bool): 强制重新初始化
     """
-    global _INITIALIZED, c1, c2, c3, zero, a_fm, a_m1, mpi, color, chatGPTAdColor, m_h1,m_h2,delta,m_red
+    global _INITIALIZED, c1, c2, c3, zero, a_fm, a_m1, mpi, color, chatGPTAdColor, m_h1,m_h2,delta,m_red,cell2_runtime
     
     if _INITIALIZED and not force:
         return
-    
+    cell2_runtime=0
     # 1. initial Canvases
     c1 = ROOT.TCanvas("c", "c", 800, 600)
     c3 = ROOT.TCanvas("c3", "c3", 800, 600)
